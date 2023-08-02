@@ -1,10 +1,12 @@
 # helicityPP
 This is a post-processing for helicity based on foam-extend-4.1.
 
-## Math equation
+
+## Mathematical Relationships
 $$ h = U. \nabla U $$
 
-Which $\tau_w$, $\mu$, $U$, and $n$ are wall shear stress, dynamic viscosity, velocity vector, and perpendicular vector, respectively.
+Which $h$ and $U$ are helicity and velocity vector, respectively.
+
 
 ## Installation
 It is working on foam-extend-4.1
@@ -14,6 +16,7 @@ cd helicityPP/helicityPP
 wmake
 cd ../case
 ```
+
 
 ## Getting Started
 1. First way
@@ -32,6 +35,7 @@ helicityPP
 ```bash
 ./Allrun
 ```
+
 
 ## References
 * [Golab, Ehsan, Behzad Vahedi, Ankur Jain, Robert A. Taylor, and Kambiz Vafai. "Laminar forced convection in a tube with a nano-encapsulated phase change materials: Minimizing exergy losses and maximizing the heat transfer rate." Journal of Energy Storage 65 (2023): 107233.](https://www.sciencedirect.com/science/article/abs/pii/S2352152X23006308)
