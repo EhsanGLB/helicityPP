@@ -1,5 +1,5 @@
 # helicityPP
-This is a post-processing for helicity based on foam-extend-4.1.
+This is a post-processing for helicity written based on foam-extend-4.1.
 
 
 ## Mathematical Relationships
